@@ -23,25 +23,25 @@ else{
         switch (operacion) {
             case "suma":
             case "sumar":
-            case "+":
+            
                 res = sumar.sumar(+num1, +num2);
                 console.log ('el resultado de la suma es ', res)
                 break;
             case "resta":
             case "restar":
-            case "-":
+            
                 res = restar.restar(num1, num2);
                 console.log ('el resultado de la resta es ', res)
                 break;
             case "divicion":
             case "dividir":
-            case "/":
+            
                 res = dividir.dividir(num1, num2);
                 console.log ('el resultado de la divicion es ', res)
                 break;
             case "multiplicacion":
             case "multiplicar":
-            case "*":
+            
                 res = multiplicar.multiplicar(num1, num2);
                 console.log ('el resultado de la multiplicacion es ', res)
                 break;
